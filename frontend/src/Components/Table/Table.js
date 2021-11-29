@@ -86,7 +86,7 @@ function Table(props) {
 
   const handleSubmitFilter = (formData) => {
     formData.preventDefault();
-    filterEntityControl(formData.target[0].value, displayContent);
+    filterEntityControl(formData.target[0].value, paginatedData[currentPage]);
   };
 
   const filterEntityControl = (searchValue, packetList) => {
