@@ -1,0 +1,34 @@
+.ControlAccordion {
+    width: 100%;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+}
+.AccordionContainer {
+    max-height: 80vh;
+    overflow: auto;
+}
+
+.redText {
+      color: red;
+}
+.ErrorIconDivAccordion {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 3%;
+    max-height: 3%;   
+}
+.ErrorFlaggedTitle {
+    display: inline-block;
+    vertical-align: top;
+}
